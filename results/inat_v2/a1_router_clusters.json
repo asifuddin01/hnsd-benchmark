@@ -1,0 +1,14 @@
+{
+ "concat": {
+  "router_auroc_image": 0.8638724511469839,
+  "router_auroc_cluster": 0.8940141779949023,
+  "nmi_novel_known_branch": 0.8642871926120201,
+  "nmi_novel_unseen_branch": 0.7975047521270626
+ },
+ "fusion": {
+  "router_auroc_image": 0.9147460262673464,
+  "router_auroc_cluster": 0.9583435110450298,
+  "nmi_novel_known_branch": 0.916776480599605,
+  "nmi_novel_unseen_branch": 0.8253957991252591
+ }
+}

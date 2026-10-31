@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this benchmark or code, please cite it as below."
+title: "HNSD benchmark: taxonomic placement and sub-taxonomy construction for unseen species"
+type: software
+authors:
+  - family-names: "Uddin"
+    given-names: "Md. Asif"
+    affiliation: "BRAC University"
+repository-code: "https://github.com/asifuddin01/hnsd-benchmark"
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-31"
+keywords:
+  - novel species discovery
+  - generalized category discovery
+  - taxonomic placement
+  - hierarchical clustering
+  - biodiversity
+  - iNaturalist
+  - BIOSCAN-5M

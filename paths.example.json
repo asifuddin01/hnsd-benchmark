@@ -1,0 +1,8 @@
+{
+  "HNSD_FEATURES_INAT": "/path/to/files/v2",
+  "HNSD_FEATURES_BIOSCAN": "/path/to/files/v2_bioscan",
+  "HNSD_RUN_SIMGCD_DINO": "/path/to/files/v2/simgcd_full",
+  "HNSD_RUN_SIMGCD_DINOV2": "/path/to/files/v2/simgcd_dinov2",
+  "HNSD_RUN_HYPCD_DINOV2": "/path/to/files/v2/hypcd_dinov2",
+  "HNSD_OUTPUTS": "outputs"
+}

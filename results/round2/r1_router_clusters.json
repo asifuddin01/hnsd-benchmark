@@ -1,0 +1,34 @@
+{
+ "simgcd_dinov2": {
+  "router_auroc_image": 0.8055892586708069,
+  "router_auroc_cluster": 0.852124035358429,
+  "novel_known_branch": {
+   "NMI": 0.855978164026096,
+   "NMI_singletons": 0.7263924798704817,
+   "ARI": 0.587043889681478,
+   "pairF1": 0.5895403289100692
+  },
+  "novel_unseen_branch": {
+   "NMI": 0.7293919501747056,
+   "NMI_singletons": 0.7581360280727134,
+   "ARI": 0.25852880391619965,
+   "pairF1": 0.260631458980097
+  }
+ },
+ "hypcd_dinov2": {
+  "router_auroc_image": 0.8081907033920288,
+  "router_auroc_cluster": 0.8541445136070251,
+  "novel_known_branch": {
+   "NMI": 0.8607530822953371,
+   "NMI_singletons": 0.7263924798704817,
+   "ARI": 0.6130993600001624,
+   "pairF1": 0.6154656699503962
+  },
+  "novel_unseen_branch": {
+   "NMI": 0.7156850395670231,
+   "NMI_singletons": 0.7581360280727134,
+   "ARI": 0.20910745082499466,
+   "pairF1": 0.21167908682902217
+  }
+ }
+}

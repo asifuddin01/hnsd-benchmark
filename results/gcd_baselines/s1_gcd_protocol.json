@@ -1,0 +1,81 @@
+{
+ "SimGCD head (step 4)": {
+  "ACC_all": 0.3743752543752544,
+  "ACC_old": 0.534035683942226,
+  "ACC_new": 0.2275625,
+  "novel_known_branch": {
+   "NMI": 0.7516496121959562,
+   "ARI": 0.3348955578929276,
+   "pairF1": 0.3370219200727892,
+   "NMI_singletons": 0.7263924798704818,
+   "n_pred_clusters": 1021
+  },
+  "novel_unseen_branch": {
+   "NMI": 0.6754144641096331,
+   "ARI": 0.17166559935837847,
+   "pairF1": 0.1742488690452401,
+   "NMI_singletons": 0.7581360280727134,
+   "n_pred_clusters": 1010
+  }
+ },
+ "SS-k-means on simgcd": {
+  "ACC_all": 0.3846967846967847,
+  "ACC_old": 0.5334919286321156,
+  "ACC_new": 0.247875,
+  "novel_known_branch": {
+   "NMI": 0.7515237939975293,
+   "ARI": 0.32405304911586835,
+   "pairF1": 0.32612133761596535,
+   "NMI_singletons": 0.7263924798704817,
+   "n_pred_clusters": 1143
+  },
+  "novel_unseen_branch": {
+   "NMI": 0.6749051107758177,
+   "ARI": 0.18232102685654766,
+   "pairF1": 0.18448204983050617,
+   "NMI_singletons": 0.7581360280727134,
+   "n_pred_clusters": 1197
+  },
+  "seconds": 108.04026222229004
+ },
+ "SS-k-means on fusion": {
+  "ACC_all": 0.6255433455433456,
+  "ACC_old": 0.735089209855565,
+  "ACC_new": 0.5248125,
+  "novel_known_branch": {
+   "NMI": 0.8730236675976134,
+   "ARI": 0.6369628764249502,
+   "pairF1": 0.6385072019986513,
+   "NMI_singletons": 0.7263924798704817,
+   "n_pred_clusters": 749
+  },
+  "novel_unseen_branch": {
+   "NMI": 0.8159466490326266,
+   "ARI": 0.417129907757603,
+   "pairF1": 0.41862292297074905,
+   "NMI_singletons": 0.7581360280727134,
+   "n_pred_clusters": 751
+  },
+  "seconds": 81.44862294197083
+ },
+ "SS-k-means on concat": {
+  "ACC_all": 0.5134717134717135,
+  "ACC_old": 0.5759048428207306,
+  "ACC_new": 0.4560625,
+  "novel_known_branch": {
+   "NMI": 0.8413794459929668,
+   "ARI": 0.548027620348916,
+   "pairF1": 0.5498254088426894,
+   "NMI_singletons": 0.7263924798704817,
+   "n_pred_clusters": 743
+  },
+  "novel_unseen_branch": {
+   "NMI": 0.7891486947865354,
+   "ARI": 0.361874292495273,
+   "pairF1": 0.3635704514637873,
+   "NMI_singletons": 0.7581360280727134,
+   "n_pred_clusters": 633
+  },
+  "seconds": 464.85903882980347
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "final": {
+  "ACC_all": 0.4791697191697192,
+  "ACC_old": 0.6679354290569244,
+  "ACC_new": 0.30559375,
+  "novel_known_branch": {
+   "NMI": 0.8506872692378417,
+   "ARI": 0.588960076232102,
+   "pairF1": 0.5908025979432061,
+   "NMI_singletons": 0.7263924798704818,
+   "n_pred_clusters": 778
+  },
+  "novel_unseen_branch": {
+   "NMI": 0.7260419317475871,
+   "ARI": 0.18504172312690192,
+   "pairF1": 0.1879530030004188,
+   "NMI_singletons": 0.7581360280727134,
+   "n_pred_clusters": 596
+  }
+ },
+ "settings": {
+  "EPOCHS": 100,
+  "BATCH_SIZE": 128,
+  "LR": 0.1,
+  "WEIGHT_DECAY": 5e-05,
+  "SUP_WEIGHT": 0.35,
+  "MEMAX_WEIGHT": 2.0,
+  "FP16": true,
+  "SEED": 42,
+  "DINO_MODEL": "dinov2_vitb14_reg",
+  "N_OLD": 1177,
+  "N_CLASSES": 1817
+ },
+ "labelled": 29425,
+ "unlabelled": 61425
+}

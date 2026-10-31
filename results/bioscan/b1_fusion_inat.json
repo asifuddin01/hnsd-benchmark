@@ -1,0 +1,50 @@
+{
+ "router_P0_notebook": {
+  "n_known_test_clusters": 6531,
+  "n_novel_clusters": 2914,
+  "auroc_image": 0.4180181920528412,
+  "auroc_cluster": 0.40189674496650696,
+  "auroc_cluster_CI": [
+   0.38868269324302673,
+   0.4143635034561157
+  ],
+  "known_test_top1_own_species": 0.3024078775290407,
+  "mean_score_known": 0.10902527719736099,
+  "mean_score_novel": 0.09393205493688583,
+  "auroc_cluster_bioscan_unseen": 0.34342727065086365,
+  "auroc_cluster_bioscan_other_heldout": 0.4286172389984131,
+  "auroc_cluster_size_matched": 0.3929538130760193
+ },
+ "router_P1_leakfree": {
+  "n_known_test_clusters": 120,
+  "n_novel_clusters": 2914,
+  "auroc_image": 0.40855878591537476,
+  "auroc_cluster": 0.3850892186164856,
+  "auroc_cluster_CI": [
+   0.3377913236618042,
+   0.4295600354671478
+  ],
+  "known_test_top1_own_species": 0.2795275590551181,
+  "mean_score_known": 0.10781276971101761,
+  "mean_score_novel": 0.09233271330595016,
+  "auroc_cluster_bioscan_unseen": 0.3238967955112457,
+  "auroc_cluster_bioscan_other_heldout": 0.4130541682243347,
+  "auroc_cluster_size_matched": 0.37925246357917786
+ },
+ "clustering": {
+  "images": 20843,
+  "k": 2914,
+  "kmeans_seconds": 612.6222450733185,
+  "NMI": 0.7362522378525187,
+  "ARI": 0.05542603782386956,
+  "pairF1": 0.05591526243733723,
+  "pairP": 0.03784486762656758,
+  "pairR": 0.10701199091159821,
+  "trivial_singletons": {
+   "NMI": 0.8847692619438192,
+   "ARI": 0.0,
+   "pairF1": 0.0
+  },
+  "nn1_species_purity": 0.19267859713093125
+ }
+}

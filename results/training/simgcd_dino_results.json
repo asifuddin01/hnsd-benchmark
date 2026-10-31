@@ -1,0 +1,32 @@
+{
+ "final": {
+  "ACC_all": 0.3743752543752544,
+  "ACC_old": 0.534035683942226,
+  "ACC_new": 0.2275625,
+  "novel_known_branch": {
+   "NMI": 0.7516496121959562,
+   "ARI": 0.3348955578929276,
+   "pairF1": 0.3370219200727892,
+   "NMI_singletons": 0.7263924798704818,
+   "n_pred_clusters": 1021
+  },
+  "novel_unseen_branch": {
+   "NMI": 0.6754144641096331,
+   "ARI": 0.17166559935837847,
+   "pairF1": 0.1742488690452401,
+   "NMI_singletons": 0.7581360280727134,
+   "n_pred_clusters": 1010
+  }
+ },
+ "epochs": 100,
+ "batch_size": 128,
+ "memax_weight": 2.0,
+ "lr": 0.1,
+ "weight_decay": 5e-05,
+ "sup_weight": 0.35,
+ "seed": 42,
+ "n_old": 1177,
+ "n_classes": 1817,
+ "labelled": 29425,
+ "unlabelled": 61425
+}

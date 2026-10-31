@@ -1,0 +1,75 @@
+{
+ "truth_vs_missing": {
+  "bioscan_unseen|genus": {
+   "n": 790,
+   "censored_by_missing_label": 0
+  },
+  "bioscan_unseen|family": {
+   "n": 118,
+   "censored_by_missing_label": 0
+  },
+  "bioscan_unseen|order": {
+   "n": 6,
+   "censored_by_missing_label": 0
+  },
+  "bioscan_other_heldout|genus": {
+   "n": 512,
+   "censored_by_missing_label": 0
+  },
+  "bioscan_other_heldout|family": {
+   "n": 1464,
+   "censored_by_missing_label": 0
+  },
+  "bioscan_other_heldout|order": {
+   "n": 24,
+   "censored_by_missing_label": 0
+  }
+ },
+ "known_missing": {
+  "order": 0,
+  "family": 0,
+  "genus": 0
+ },
+ "novel_missing": {
+  "order": 0,
+  "family": 0,
+  "genus": 0
+ },
+ "images_per_species": {
+  "known": {
+   "species": 6531,
+   "images": 44173,
+   "mean": 6.763589036900934,
+   "hist": {
+    "3": 1005,
+    "4": 765,
+    "5": 818,
+    "6": 1130,
+    "7": 145,
+    "8": 143,
+    "9": 181,
+    "10": 2344
+   }
+  },
+  "novel_known_branch": {
+   "species": 2914,
+   "images": 20843,
+   "mean": 7.152711050102951,
+   "hist": {
+    "3": 501,
+    "4": 343,
+    "5": 239,
+    "6": 174,
+    "7": 144,
+    "8": 152,
+    "9": 105,
+    "10": 1256
+   }
+  }
+ },
+ "fusion_overlap": {
+  "known": 6531,
+  "train": 6411,
+  "val": 120
+ }
+}

@@ -1,0 +1,23 @@
+# large or machine-specific files
+features/
+outputs/
+paths.local.json
+*.npz
+*.pt
+*.pth
+*.zip
+*.tar.gz
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv*/
+venv/
+*.egg-info/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,125 @@
+{
+ "concat": {
+  "pooled": 0.3693320155143738,
+  "within_order_weighted": 0.4971402712669901,
+  "by_order": {
+   "Hymenoptera": {
+    "known": 1294,
+    "novel": 1923,
+    "auroc": 0.5130009055137634,
+    "mean_known": 0.09364186972379684,
+    "mean_novel": 0.09181072562932968
+   },
+   "Lepidoptera": {
+    "known": 700,
+    "novel": 590,
+    "auroc": 0.5026561617851257,
+    "mean_known": 0.1370941400527954,
+    "mean_novel": 0.13602830469608307
+   },
+   "Diptera": {
+    "known": 2439,
+    "novel": 339,
+    "auroc": 0.38498055934906006,
+    "mean_known": 0.10959523916244507,
+    "mean_novel": 0.0983857586979866
+   },
+   "Coleoptera": {
+    "known": 687,
+    "novel": 22,
+    "auroc": 0.628688633441925,
+    "mean_known": 0.13027051091194153,
+    "mean_novel": 0.1440427452325821
+   },
+   "Araneae": {
+    "known": 374,
+    "novel": 11,
+    "auroc": 0.6220223903656006,
+    "mean_known": 0.14383557438850403,
+    "mean_novel": 0.15415191650390625
+   }
+  }
+ },
+ "fusion_bioscan": {
+  "pooled": 0.8229914307594299,
+  "within_order_weighted": 0.8293272913018793,
+  "by_order": {
+   "Hymenoptera": {
+    "known": 1294,
+    "novel": 1923,
+    "auroc": 0.8749920725822449,
+    "mean_known": 0.1597728729248047,
+    "mean_novel": 0.22576269507408142
+   },
+   "Lepidoptera": {
+    "known": 700,
+    "novel": 590,
+    "auroc": 0.7758305072784424,
+    "mean_known": 0.18157178163528442,
+    "mean_novel": 0.22612853348255157
+   },
+   "Diptera": {
+    "known": 2439,
+    "novel": 339,
+    "auroc": 0.6642513871192932,
+    "mean_known": 0.17502138018608093,
+    "mean_novel": 0.20476290583610535
+   },
+   "Coleoptera": {
+    "known": 687,
+    "novel": 22,
+    "auroc": 0.8297604918479919,
+    "mean_known": 0.14460311830043793,
+    "mean_novel": 0.2042074054479599
+   },
+   "Araneae": {
+    "known": 374,
+    "novel": 11,
+    "auroc": 0.8021390438079834,
+    "mean_known": 0.136125385761261,
+    "mean_novel": 0.18061259388923645
+   }
+  }
+ },
+ "fusion_inat": {
+  "pooled": 0.40189674496650696,
+  "within_order_weighted": 0.5117380034469029,
+  "by_order": {
+   "Hymenoptera": {
+    "known": 1294,
+    "novel": 1923,
+    "auroc": 0.5071812272071838,
+    "mean_known": 0.07403121143579483,
+    "mean_novel": 0.07043163478374481
+   },
+   "Lepidoptera": {
+    "known": 700,
+    "novel": 590,
+    "auroc": 0.5754285454750061,
+    "mean_known": 0.16520409286022186,
+    "mean_novel": 0.17175738513469696
+   },
+   "Diptera": {
+    "known": 2439,
+    "novel": 339,
+    "auroc": 0.4199143350124359,
+    "mean_known": 0.09073096513748169,
+    "mean_novel": 0.08152353763580322
+   },
+   "Coleoptera": {
+    "known": 687,
+    "novel": 22,
+    "auroc": 0.5724493861198425,
+    "mean_known": 0.10749252885580063,
+    "mean_novel": 0.11363203078508377
+   },
+   "Araneae": {
+    "known": 374,
+    "novel": 11,
+    "auroc": 0.6006320118904114,
+    "mean_known": 0.1389896422624588,
+    "mean_novel": 0.15580283105373383
+   }
+  }
+ }
+}

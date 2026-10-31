@@ -1,0 +1,34 @@
+{
+ "router_P0_notebook": {
+  "n_known_test_clusters": 6531,
+  "n_novel_clusters": 2914,
+  "auroc_image": 0.39010143280029297,
+  "auroc_cluster": 0.3693320155143738,
+  "auroc_cluster_CI": [
+   0.3574252128601074,
+   0.3811427056789398
+  ],
+  "known_test_top1_own_species": 0.34248788368336025,
+  "mean_score_known": 0.12004515528678894,
+  "mean_score_novel": 0.10292401164770126,
+  "auroc_cluster_bioscan_unseen": 0.3228440582752228,
+  "auroc_cluster_bioscan_other_heldout": 0.3905769884586334,
+  "auroc_cluster_size_matched": 0.36646294593811035
+ },
+ "router_P1_leakfree": {
+  "n_known_test_clusters": 120,
+  "n_novel_clusters": 2914,
+  "auroc_image": 0.38528165221214294,
+  "auroc_cluster": 0.35684627294540405,
+  "auroc_cluster_CI": [
+   0.30330178141593933,
+   0.4098314940929413
+  ],
+  "known_test_top1_own_species": 0.30708661417322836,
+  "mean_score_known": 0.11710169166326523,
+  "mean_score_novel": 0.10054533183574677,
+  "auroc_cluster_bioscan_unseen": 0.31210795044898987,
+  "auroc_cluster_bioscan_other_heldout": 0.3772916793823242,
+  "auroc_cluster_size_matched": 0.35302847623825073
+ }
+}

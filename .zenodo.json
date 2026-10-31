@@ -1,0 +1,16 @@
+{
+  "title": "HNSD benchmark: taxonomic placement and sub-taxonomy construction for unseen species",
+  "upload_type": "software",
+  "description": "<p>Code, benchmark splits and reference results for evaluating how images of species that are absent from a reference set can be (1) detected as novel, (2) placed under the correct known taxon at the correct rank, and (3) organised into a new sub-taxonomy. Includes a 2,017-species iNaturalist 2021 benchmark with computed ground truth for every novel species, a BIOSCAN-5M benchmark with 2,914 real undescribed insect species, generalized category discovery baselines (SimGCD, HypCD) and all analysis scripts. Images and extracted features are not redistributed.</p>",
+  "creators": [
+    {"name": "Uddin, Md. Asif", "affiliation": "BRAC University"}
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "keywords": ["novel species discovery", "generalized category discovery", "taxonomic placement",
+               "hierarchical clustering", "biodiversity", "iNaturalist", "BIOSCAN-5M"],
+  "related_identifiers": [
+    {"identifier": "https://github.com/visipedia/inat_comp/tree/master/2021", "relation": "references", "scheme": "url", "resource_type": "dataset"},
+    {"identifier": "10.5281/zenodo.11973457", "relation": "references", "scheme": "doi", "resource_type": "dataset"}
+  ]
+}

@@ -1,0 +1,11 @@
+# Stage notebooks in notebooks/ (feature extraction and GCD training on a CUDA GPU).
+# Tested with Python 3.10 on Windows 11, NVIDIA RTX A6000, CUDA 12.1.
+# Install PyTorch first, from the CUDA index:
+#   pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121
+transformers>=4.56  # SigLIP 2 NaFlex and DINOv3 (notebooks 03, 03b); DINOv3 is gated on Hugging Face
+pillow
+pandas
+numpy
+scipy               # 1.15.3
+scikit-learn        # 1.7.2
+jupyter

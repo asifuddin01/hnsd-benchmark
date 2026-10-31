@@ -1,0 +1,6 @@
+# Analyses in analysis/ (run from cached features; no GPU required).
+# Tested with Python 3.12 on macOS (Apple silicon); versions in comments are the tested ones.
+numpy>=2.0          # 2.5.4
+scipy>=1.13         # 1.18.1
+scikit-learn>=1.5   # 1.9.1
+torch>=2.3          # 2.14.1; used by the GPU k-means scripts (CUDA, Apple MPS or CPU)

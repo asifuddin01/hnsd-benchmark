@@ -1,0 +1,50 @@
+{
+ "simgcd": {
+  "router_auroc_image": 0.7849190831184387,
+  "router_auroc_cluster": 0.8632832169532776,
+  "novel_known_branch": {
+   "NMI": 0.7445524057595155,
+   "NMI_singletons": 0.7263924798704817,
+   "ARI": 0.41821718546465175,
+   "pairF1": 0.4215217447905366
+  },
+  "novel_unseen_branch": {
+   "NMI": 0.6618639483223895,
+   "NMI_singletons": 0.7581360280727134,
+   "ARI": 0.1903099608797307,
+   "pairF1": 0.19248730087131177
+  }
+ },
+ "fusion": {
+  "router_auroc_image": 0.9142181277275085,
+  "router_auroc_cluster": 0.9588280320167542,
+  "novel_known_branch": {
+   "NMI": 0.916776480599605,
+   "NMI_singletons": 0.7263924798704817,
+   "ARI": 0.7438102390063092,
+   "pairF1": 0.7453053767695604
+  },
+  "novel_unseen_branch": {
+   "NMI": 0.8253957991252591,
+   "NMI_singletons": 0.7581360280727134,
+   "ARI": 0.4657056641567101,
+   "pairF1": 0.46696564496815396
+  }
+ },
+ "concat": {
+  "router_auroc_image": 0.8631460070610046,
+  "router_auroc_cluster": 0.8930769562721252,
+  "novel_known_branch": {
+   "NMI": 0.8642871926120201,
+   "NMI_singletons": 0.7263924798704817,
+   "ARI": 0.5991316403137718,
+   "pairF1": 0.6014962261758513
+  },
+  "novel_unseen_branch": {
+   "NMI": 0.7975047521270626,
+   "NMI_singletons": 0.7581360280727134,
+   "ARI": 0.396620605096232,
+   "pairF1": 0.3980668677434757
+  }
+ }
+}
