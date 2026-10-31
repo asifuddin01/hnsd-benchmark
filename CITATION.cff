@@ -8,6 +8,14 @@ authors:
     affiliation: "BRAC University"
 repository-code: "https://github.com/asifuddin01/hnsd-benchmark"
 license: MIT
+doi: "10.5281/zenodo.23838477"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23838477"
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23838478"
+    description: "Version 1.0.0"
 version: "1.0.0"
 date-released: "2026-10-31"
 keywords:

@@ -2,6 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%20%7C%203.12-blue.svg)](#installation)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23838477.svg)](https://doi.org/10.5281/zenodo.23838477)
 
 Code, benchmark splits and reference results for **hierarchical novel species discovery (HNSD)**: given images of
 species that are absent from a reference set, decide
@@ -180,7 +181,8 @@ The benchmark split files in `data/` list species names, taxonomy and image file
 
 ## Citation
 
-If you use this benchmark or code, please cite it (see [CITATION.cff](CITATION.cff)):
+If you use this benchmark or code, please cite it (see [CITATION.cff](CITATION.cff)). The DOI
+[10.5281/zenodo.23838477](https://doi.org/10.5281/zenodo.23838477) always resolves to the latest archived version on Zenodo.
 
 ```bibtex
 @software{uddin_hnsd_benchmark_2026,
@@ -188,6 +190,7 @@ If you use this benchmark or code, please cite it (see [CITATION.cff](CITATION.c
   title   = {{HNSD} benchmark: taxonomic placement and sub-taxonomy construction for unseen species},
   year    = {2026},
   version = {1.0.0},
+  doi     = {10.5281/zenodo.23838477},
   url     = {https://github.com/asifuddin01/hnsd-benchmark}
 }
 ```
